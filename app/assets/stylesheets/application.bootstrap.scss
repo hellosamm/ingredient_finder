@@ -1,2 +1,8 @@
-@import 'bootstrap/scss/bootstrap';
-@import 'bootstrap-icons/font/bootstrap-icons';
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+.custom-button.btn {
+  background-color: #293241;
+  color: #fff;
+  border: none;
+}

@@ -1,9 +1,21 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+require 'json'
+
+file = File.read(Rails.root.join('db', 'recipes.json'))
+data = JSON.parse(file)
+
+data.each do |recipe_data|
+  recipe = Recipe.create!(name: recipe_data["recipe_name"])
+
+  recipe_data["ingredients"].each do |ingredient_data|
+    puts "debug: #{ingredient_data.inspect}"
+
+    Ingredient.create!(
+      recipe: recipe,
+      name: ingredient_data["name"],
+      amount: ingredient_data["amount"].to_s.strip,
+      unit: ingredient_data["unit"],
+    )
+  end
+end
+
+puts "seed data created successfully"

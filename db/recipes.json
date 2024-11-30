@@ -1,0 +1,767 @@
+[
+    {
+        "recipe_name": "Crockpot Shredded Chicken Sandwiches",
+        "ingredients": [
+            {
+                "amount": "1 ½",
+                "unit": "lbs",
+                "name": "boneless skinless chicken breasts"
+            },
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "BBQ sauce"
+            },
+            {
+                "amount": "1",
+                "unit": "tablespoon",
+                "name": "apple cider vinegar"
+            },
+            {
+                "amount": "1",
+                "unit": "teaspoon",
+                "name": "minced garlic"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "kosher salt"
+            },
+            {
+                "amount": "6",
+                "unit": "",
+                "name": "burger buns of choice"
+            },
+            {
+                "amount": "2",
+                "unit": "cups",
+                "name": "cabbage, thinly sliced"
+            },
+            {
+                "amount": "1 ½",
+                "unit": "cup",
+                "name": "minced apple"
+            },
+            {
+                "amount": "⅓",
+                "unit": "cup",
+                "name": "chopped cilantro"
+            },
+            {
+                "amount": "1 ½",
+                "unit": "tablespoon",
+                "name": "honey or pure maple syrup"
+            },
+            {
+                "amount": "1 ½",
+                "unit": "tablespoon",
+                "name": "apple cider vinegar"
+            },
+            {
+                "amount": "¼",
+                "unit": "teaspoon",
+                "name": "kosher salt"
+            }
+        ]
+    },
+    {
+        "recipe_name": "Easy Ground Beef Stroganoff",
+        "ingredients": [
+            {
+                "amount": "1",
+                "unit": "tablespoon",
+                "name": "olive oil or butter"
+            },
+            {
+                "amount": "1",
+                "unit": "pound",
+                "name": "lean ground beef"
+            },
+            {
+                "amount": "1",
+                "unit": "tablespoon",
+                "name": "minced garlic"
+            },
+            {
+                "amount": "10",
+                "unit": "ounces",
+                "name": "sliced mushrooms"
+            },
+            {
+                "amount": "1",
+                "unit": "",
+                "name": "yellow onion, diced"
+            },
+            {
+                "amount": "3",
+                "unit": "tablespoons",
+                "name": "flour"
+            },
+            {
+                "amount": "¾",
+                "unit": "teaspoon",
+                "name": "paprika"
+            },
+            {
+                "amount": "¾",
+                "unit": "teaspoon",
+                "name": "dried thyme"
+            },
+            {
+                "amount": "½-3/4",
+                "unit": "teaspoon",
+                "name": "Kosher salt"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "black pepper"
+            },
+            {
+                "amount": "1",
+                "unit": "tablespoon",
+                "name": "Dijon mustard"
+            },
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "milk"
+            },
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "beef broth"
+            },
+            {
+                "amount": "⅓",
+                "unit": "cup",
+                "name": "plain Greek yogurt or sour cream"
+            },
+            {
+                "amount": "2",
+                "unit": "tablespoons",
+                "name": "lemon juice"
+            },
+            {
+                "amount": "",
+                "unit": "",
+                "name": "Rice or noodles, for serving"
+            },
+            {
+                "amount": "",
+                "unit": "",
+                "name": "Fresh parsley for topping, optional"
+            }
+        ]
+    },
+    {
+        "recipe_name": "Easy Ground Beef Stroganoff",
+        "ingredients": [
+            {
+                "amount": "1",
+                "unit": "tablespoon",
+                "name": "olive oil or butter"
+            },
+            {
+                "amount": "1",
+                "unit": "pound",
+                "name": "lean ground beef"
+            },
+            {
+                "amount": "1",
+                "unit": "tablespoon",
+                "name": "minced garlic"
+            },
+            {
+                "amount": "10",
+                "unit": "ounces",
+                "name": "sliced mushrooms"
+            },
+            {
+                "amount": "1",
+                "unit": "",
+                "name": "yellow onion, diced"
+            },
+            {
+                "amount": "3",
+                "unit": "tablespoons",
+                "name": "flour"
+            },
+            {
+                "amount": "¾",
+                "unit": "teaspoon",
+                "name": "paprika"
+            },
+            {
+                "amount": "¾",
+                "unit": "teaspoon",
+                "name": "dried thyme"
+            },
+            {
+                "amount": "½-3/4",
+                "unit": "teaspoon",
+                "name": "Kosher salt"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "black pepper"
+            },
+            {
+                "amount": "1",
+                "unit": "tablespoon",
+                "name": "Dijon mustard"
+            },
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "milk"
+            },
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "beef broth"
+            },
+            {
+                "amount": "⅓",
+                "unit": "cup",
+                "name": "plain Greek yogurt or sour cream"
+            },
+            {
+                "amount": "2",
+                "unit": "tablespoons",
+                "name": "lemon juice"
+            },
+            {
+                "amount": "",
+                "unit": "",
+                "name": "Rice or noodles, for serving"
+            },
+            {
+                "amount": "",
+                "unit": "",
+                "name": "Fresh parsley for topping, optional"
+            }
+        ]
+    },
+    {
+        "recipe_name": "Oven Baked Honey Mustard Salmon",
+        "ingredients": [
+            {
+                "amount": "3",
+                "unit": "",
+                "name": "large carrots, peeled and cut into chunks"
+            },
+            {
+                "amount": "1",
+                "unit": "pound",
+                "name": "baby potatoes, quartered"
+            },
+            {
+                "amount": "2",
+                "unit": "teaspoons",
+                "name": "olive or avocado oil"
+            },
+            {
+                "amount": "¾",
+                "unit": "teaspoon",
+                "name": "garlic powder"
+            },
+            {
+                "amount": "¾",
+                "unit": "teaspoon",
+                "name": "smoked paprika"
+            },
+            {
+                "amount": "1",
+                "unit": "teaspoon",
+                "name": "dried parsley"
+            },
+            {
+                "amount": "¾",
+                "unit": "teaspoon",
+                "name": "Kosher salt"
+            },
+            {
+                "amount": "¼",
+                "unit": "teaspoon",
+                "name": "black pepper"
+            },
+            {
+                "amount": "1 ½",
+                "unit": "pounds",
+                "name": "salmon filet"
+            },
+            {
+                "amount": "2",
+                "unit": "teaspoons",
+                "name": "olive or avocado oil"
+            },
+            {
+                "amount": "1",
+                "unit": "tablespoon",
+                "name": "Dijon mustard"
+            },
+            {
+                "amount": "2",
+                "unit": "tablespoons",
+                "name": "honey"
+            },
+            {
+                "amount": "2",
+                "unit": "tablespoons",
+                "name": "fresh lemon juice"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "garlic powder"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "smoked paprika"
+            },
+            {
+                "amount": "1",
+                "unit": "teaspoon",
+                "name": "dried parsley"
+            },
+            {
+                "amount": "¼ - ½",
+                "unit": "teaspoon",
+                "name": "Kosher salt"
+            },
+            {
+                "amount": "¼",
+                "unit": "teaspoon",
+                "name": "black pepper"
+            }
+        ]
+    },
+    {
+        "recipe_name": "Creamy Chicken and Gnocchi Soup",
+        "ingredients": [
+            {
+                "amount": "2",
+                "unit": "tablespoons",
+                "name": "olive oil or butter"
+            },
+            {
+                "amount": "½",
+                "unit": "",
+                "name": "medium white onion, diced"
+            },
+            {
+                "amount": "2",
+                "unit": "",
+                "name": "large carrots, diced"
+            },
+            {
+                "amount": "1",
+                "unit": "tablespoon",
+                "name": "minced garlic"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "kosher salt + more to taste"
+            },
+            {
+                "amount": "¾",
+                "unit": "teaspoon",
+                "name": "dried thyme"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "dried rosemary"
+            },
+            {
+                "amount": "¼",
+                "unit": "teaspoon",
+                "name": "black pepper"
+            },
+            {
+                "amount": "⅓",
+                "unit": "cup",
+                "name": "flour"
+            },
+            {
+                "amount": "4",
+                "unit": "cups",
+                "name": "chicken broth"
+            },
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "milk"
+            },
+            {
+                "amount": "10",
+                "unit": "ounces",
+                "name": "Gnocchi"
+            },
+            {
+                "amount": "3",
+                "unit": "cups",
+                "name": "shredded rotisserie chicken or other cooked and shredded chicken"
+            },
+            {
+                "amount": "2",
+                "unit": "cups",
+                "name": "spinach"
+            },
+            {
+                "amount": "2",
+                "unit": "tablespoons",
+                "name": "lemon juice + more to taste"
+            },
+            {
+                "amount": "",
+                "unit": "",
+                "name": "Fresh shredded parmesan for topping, optional"
+            }
+        ]
+    },
+    {
+        "recipe_name": "Meal Prep Breakfast Sandwiches",
+        "ingredients": [
+            {
+                "amount": "18",
+                "unit": "",
+                "name": "eggs"
+            },
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "cottage cheese"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "salt"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "garlic powder"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "onion powder"
+            },
+            {
+                "amount": "¼",
+                "unit": "teaspoon",
+                "name": "black pepper"
+            },
+            {
+                "amount": "2",
+                "unit": "cups",
+                "name": "spinach, finely sliced"
+            },
+            {
+                "amount": "12",
+                "unit": "",
+                "name": "English muffins"
+            },
+            {
+                "amount": "12",
+                "unit": "",
+                "name": "pieces of cooked bacon or turkey bacon, or sausage/chicken sausage patties"
+            },
+            {
+                "amount": "12",
+                "unit": "",
+                "name": "pieces of sliced cheese, optional"
+            },
+            {
+                "amount": "",
+                "unit": "",
+                "name": "Optional for serving: avocado and hot sauce of choice"
+            }
+        ]
+    },
+    {
+        "recipe_name": "Brown Butter Oatmeal Chocolate Chip Cookies",
+        "ingredients": [
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "unsalted butter"
+            },
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "brown sugar, lightly packed"
+            },
+            {
+                "amount": "¼",
+                "unit": "cup",
+                "name": "white sugar"
+            },
+            {
+                "amount": "2",
+                "unit": "",
+                "name": "eggs"
+            },
+            {
+                "amount": "2",
+                "unit": "teaspoons",
+                "name": "vanilla extract"
+            },
+            {
+                "amount": "2",
+                "unit": "cups",
+                "name": "all-purpose flour"
+            },
+            {
+                "amount": "¾",
+                "unit": "teaspoon",
+                "name": "kosher salt (if you are using standard table salt instead of kosher salt, use ½ teaspoon of salt)"
+            },
+            {
+                "amount": "1",
+                "unit": "teaspoon",
+                "name": "baking soda"
+            },
+            {
+                "amount": "1",
+                "unit": "teaspoon",
+                "name": "baking powder"
+            },
+            {
+                "amount": "1 ¼",
+                "unit": "cup",
+                "name": "old fashioned rolled oats"
+            },
+            {
+                "amount": "1 ½ - 2",
+                "unit": "cups",
+                "name": "chocolate chips or chocolate chunks"
+            },
+            {
+                "amount": "",
+                "unit": "",
+                "name": "Flaky sea salt, optional for topping"
+            }
+        ]
+    },
+    {
+        "recipe_name": "Fluffy Pumpkin Pie Spice Pancakes",
+        "ingredients": [
+            {
+                "amount": "1 ¼",
+                "unit": "cups",
+                "name": "all-purpose flour (or 1-to-1 gluten-free flour)"
+            },
+            {
+                "amount": "2",
+                "unit": "teaspoons",
+                "name": "baking powder"
+            },
+            {
+                "amount": "1",
+                "unit": "teaspoon",
+                "name": "baking soda"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "Kosher salt"
+            },
+            {
+                "amount": "2-3",
+                "unit": "teaspoons",
+                "name": "pumpkin pie spice"
+            },
+            {
+                "amount": "⅓",
+                "unit": "cup",
+                "name": "canned pumpkin puree"
+            },
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "milk or almond milk"
+            },
+            {
+                "amount": "1",
+                "unit": "tablespoon",
+                "name": "lemon juice or white vinegar"
+            },
+            {
+                "amount": "2",
+                "unit": "tablespoons",
+                "name": "pure maple syrup"
+            },
+            {
+                "amount": "2",
+                "unit": "tablespoons",
+                "name": "unsalted butter, melted and cooled + extra for greasing the pan"
+            },
+            {
+                "amount": "1",
+                "unit": "",
+                "name": "egg"
+            }
+        ]
+    },
+    {
+        "recipe_name": "Creamy Green Chile Chicken Skillet Enchiladas",
+        "ingredients": [
+            {
+                "amount": "2",
+                "unit": "tablespoons",
+                "name": "+ 1 tsp unsalted butter or avocado oil (divided)"
+            },
+            {
+                "amount": "1",
+                "unit": "medium",
+                "name": "yellow onion, diced"
+            },
+            {
+                "amount": "1",
+                "unit": "",
+                "name": "bell pepper, diced"
+            },
+            {
+                "amount": "2",
+                "unit": "tablespoons",
+                "name": "flour (see notes for GF option)"
+            },
+            {
+                "amount": "⅔",
+                "unit": "cup",
+                "name": "low-sodium chicken broth"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "cumin"
+            },
+            {
+                "amount": "½",
+                "unit": "teaspoon",
+                "name": "Kosher salt"
+            },
+            {
+                "amount": "1",
+                "unit": "cup",
+                "name": "salsa verde"
+            },
+            {
+                "amount": "1, 4",
+                "unit": "ounce",
+                "name": "can mild diced green chiles"
+            },
+            {
+                "amount": "⅔",
+                "unit": "cup",
+                "name": "plain Greek yogurt or sour cream"
+            },
+            {
+                "amount": "3",
+                "unit": "cups",
+                "name": "shredded rotisserie chicken (or shredded chicken breast)"
+            },
+            {
+                "amount": "6",
+                "unit": "",
+                "name": "corn tortillas, cut into strips"
+            },
+            {
+                "amount": "1, 13.5",
+                "unit": "ounce",
+                "name": "can Great Northern beans"
+            },
+            {
+                "amount": "½ - 1",
+                "unit": "cup",
+                "name": "shredded Monterey Jack cheese"
+            },
+            {
+                "amount": "",
+                "unit": "",
+                "name": "Ideas for toppings: diced jalapeño, minced cilantro, finely diced red onion, fresh lime, avocado"
+            }
+        ]
+    },
+    {
+        "recipe_name": "Easy Slow Cooker Chicken Tikka Masala",
+        "ingredients": [
+            {
+                "amount": "1 ½",
+                "unit": "pounds",
+                "name": "boneless skinless chicken thighs (swap with breasts if you prefer)"
+            },
+            {
+                "amount": "2",
+                "unit": "teaspoons",
+                "name": "minced garlic"
+            },
+            {
+                "amount": "2",
+                "unit": "teaspoons",
+                "name": "minced ginger"
+            },
+            {
+                "amount": "¼",
+                "unit": "cup",
+                "name": "Greek yogurt"
+            },
+            {
+                "amount": "1, 6",
+                "unit": "ounce",
+                "name": "can tomato paste"
+            },
+            {
+                "amount": "2",
+                "unit": "teaspoons",
+                "name": "coriander"
+            },
+            {
+                "amount": "1",
+                "unit": "teaspoon",
+                "name": "chili powder"
+            },
+            {
+                "amount": "2",
+                "unit": "teaspoons",
+                "name": "cumin"
+            },
+            {
+                "amount": "2",
+                "unit": "teaspoons",
+                "name": "garam masala"
+            },
+            {
+                "amount": "1",
+                "unit": "teaspoon",
+                "name": "salt"
+            },
+            {
+                "amount": "1",
+                "unit": "",
+                "name": "yellow onion, diced"
+            },
+            {
+                "amount": "8",
+                "unit": "ounce",
+                "name": "can tomato sauce (plain tomato sauce, not spaghetti sauce)"
+            },
+            {
+                "amount": "",
+                "unit": "",
+                "name": "Juice from ½ of a lemon"
+            },
+            {
+                "amount": "¾-1",
+                "unit": "cup",
+                "name": "coconut milk (we use regular coconut milk, not light)"
+            }
+        ]
+    }
+]

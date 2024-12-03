@@ -23,8 +23,21 @@ class Api::V1::RecipesController < ApplicationController
 
     ingredients = Ingredient.where("Lower(name) LIKE ?", "%#{query}%")
 
-    recipes = ingredients.map(&:recipe).uniq
+  #   recipes = ingredients.map(&:recipe).uniq
 
-    render json: recipes.map { |recipe| { id: recipe.id, name: recipe.name }}
+  #   render json: recipes.map { |recipe| { id: recipe.id, name: recipe.name,amount_and_unit: "#{ingredient.amount} #{ingredient.unit}"}
+  # }
+
+    recipes = ingredients.map do |ingredient|
+      {
+        recipe_id: ingredient.recipe.id,
+        recipe_name: ingredient.recipe.name,
+        amount_and_unit: "#{ingredient.amount} #{ingredient.unit}"
+      }
+    end
+
+    unique_recipes = recipes.uniq { |recipe| recipe[:recipe_id]}
+
+    render json: unique_recipes
   end
 end

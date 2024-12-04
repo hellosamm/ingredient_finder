@@ -4,6 +4,7 @@ import { useNavigate, useLocation, Link } from "react-router-dom";
 const Search = () => {
   const [query, setQuery] = useState("");
   const [recipes, setRecipes] = useState([]);
+  const [searchPerformed, setSearchPerformed] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -26,12 +27,15 @@ const Search = () => {
 
     if (queryFromUrl) {
       setQuery(queryFromUrl);
+      setSearchPerformed(true);
       fetch(`/api/v1/search?query=${encodeURIComponent(queryFromUrl)}`)
         .then((response) => response.json())
         .then((data) => setRecipes(data))
         .catch((error) =>
           console.error("error fetching search results:", error)
         );
+    } else {
+      setSearchPerformed(false);
     }
   }, [location.search]);
 
@@ -78,8 +82,7 @@ const Search = () => {
             ))}
           </ul>
         ) : (
-          // <p>no recipes found</p>
-          <p></p>
+          searchPerformed && <p>no recipes found</p>
         )}
       </div>
     </div>

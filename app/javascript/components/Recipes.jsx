@@ -28,14 +28,15 @@ const Recipes = () => {
 
   const noRecipe = (
     <div>
-      <h4>no recipes yet</h4>
+      <h4></h4>
     </div>
   );
 
   return (
     <>
-      <div></div>
-      <div>{recipes.length > 0 ? allRecipes : noRecipe}</div>
+      <div className="list-of-recipes">
+        <div>{recipes.length > 0 ? allRecipes : noRecipe}</div>
+      </div>
     </>
   );
 };

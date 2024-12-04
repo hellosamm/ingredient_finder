@@ -43,21 +43,33 @@ const Recipe = () => {
   }
 
   return (
-    <div>
-      <h2>{recipe.name}</h2>
-      <h3>ingredients</h3>
-
-      <ul>
-        {ingredients.length > 0 ? (
-          ingredients.map((ingredient) => (
-            <li key={ingredient.id}>
-              {ingredient.amount} {ingredient.unit} {ingredient.name}
-            </li>
-          ))
-        ) : (
-          <p>no ingredients found</p>
-        )}
-      </ul>
+    <div className="full-recipe">
+      <div className="recipe-name">
+        <h2>{recipe.name}</h2>
+        <a
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            window.history.back();
+          }}
+        >
+          <span className="material-symbols-outlined">arrow_back</span>
+        </a>
+      </div>
+      <div className="recipe-ingredients">
+        <h3>ingredients</h3>
+        <ul>
+          {ingredients.length > 0 ? (
+            ingredients.map((ingredient) => (
+              <li key={ingredient.id}>
+                {ingredient.amount} {ingredient.unit} {ingredient.name}
+              </li>
+            ))
+          ) : (
+            <p>no ingredients found</p>
+          )}
+        </ul>
+      </div>
     </div>
   );
 };

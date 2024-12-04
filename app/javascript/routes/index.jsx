@@ -10,10 +10,9 @@ export default (
     <Routes>
       <Route path="/" element={<Home />}>
         <Route path="recipes" element={<Recipes />} />
+        <Route path="/recipe/:id" element={<Recipe />} />
+        <Route path="/search" element={<Search />} />
       </Route>
-
-      <Route path="/recipe/:id" element={<Recipe />} />
-      <Route path="/search" element={<Search />} />
     </Routes>
   </Router>
 );

@@ -20,9 +20,8 @@ const Recipes = () => {
 
   const allRecipes = recipes.map((recipe, index) => (
     <div key={index}>
-      <div>
-        <h4>{recipe.name}</h4>
-        <Link to={`/recipe/${recipe.id}`}>view recipe</Link>
+      <div className="recipes-list">
+        <Link to={`/recipe/${recipe.id}`}>{recipe.name}</Link>
       </div>
     </div>
   ));
@@ -35,9 +34,7 @@ const Recipes = () => {
 
   return (
     <>
-      <div>
-        <h2>these are the recipes</h2>
-      </div>
+      <div></div>
       <div>{recipes.length > 0 ? allRecipes : noRecipe}</div>
     </>
   );

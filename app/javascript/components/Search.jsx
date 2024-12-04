@@ -47,16 +47,24 @@ const Search = () => {
   // };
 
   return (
-    <div>
-      <input
-        type="text"
-        placeholder="Search by ingredient..."
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-      />
-      <button onClick={handleSearch}>search</button>
+    <div className="search-page">
+      <div className="search-stationary">
+        <div className="search-welcome-message">
+          <p>let's use your ingredients!</p>
+        </div>
+        <div className="search-bar">
+          <input
+            className="input-bar"
+            type="text"
+            placeholder="Search by ingredient..."
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+          />
+          <button onClick={handleSearch}>search</button>
+        </div>
+      </div>
 
-      <div>
+      <div className="search-results">
         {recipes.length > 0 ? (
           <ul>
             {recipes.map((recipe) => (
@@ -70,7 +78,8 @@ const Search = () => {
             ))}
           </ul>
         ) : (
-          <p>no recipes found</p>
+          // <p>no recipes found</p>
+          <p></p>
         )}
       </div>
     </div>

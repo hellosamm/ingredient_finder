@@ -3,9 +3,15 @@ import { Link, Outlet } from "react-router-dom";
 
 export default () => (
   <div>
-    <Link to={"/"}>homepage</Link> <div></div>
-    <Link to={`recipes`}>view all recipes</Link> <div></div>
-    <Link to={`search`}>search</Link>
+    <div className="navbar">
+      {/* <a href="/">
+        <span className="material-symbols-outlined">skillet</span>
+      </a> */}
+      <Link to={"/"}>home</Link>
+      <Link to={`recipes`}>view all recipes</Link>
+      <Link to={`search`}>search</Link>
+    </div>
+
     <div>
       <Outlet />
     </div>

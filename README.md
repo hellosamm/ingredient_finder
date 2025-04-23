@@ -1,24 +1,16 @@
-# README
+# Ingredient Finder
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Tech Stack:
+Backend: Rails\
+Frontend: React\
+Recipe Data: Custom Python Script for web scraping\
 
-Things you may want to cover:
+## Description
+I built an app to solve the “what do I do with these carrots before they go bad” dilemma. You type in an ingredient you have, and it searches a recipe database for ideas. 
 
-* Ruby version
+## Future Enhancements
+- Allow users to input multiple ingredients 
+- Add user accounts to save favorite recipes or mark as “tried”
+- Updated UI styling
+- Increase Recipe DB size
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
